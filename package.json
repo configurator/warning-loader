@@ -1,0 +1,16 @@
+{
+  "name": "warning-loader",
+  "version": "1.0.0",
+  "description": "A webpack loader that produces warnings according to script rules",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/configurator/warning-loader.git"
+  },
+  "author": "Dor Kleiman <configurator@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/configurator/warning-loader/issues"
+  },
+  "homepage": "https://github.com/configurator/warning-loader#readme"
+}
