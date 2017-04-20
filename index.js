@@ -1,13 +1,13 @@
 "use strict";
 
 module.exports = function (source, inputSourceMap) {
-	var loader = this;
+	let loader = this;
 
 	this.cacheable();
 
-	var query = this.query;
+	let query = this.query;
 
-	var context = {
+	let context = {
 		warning(message) {
 			loader.emitWarning(new Error(message));
 		},
@@ -37,7 +37,7 @@ module.exports = function (source, inputSourceMap) {
 		}
 	};
 
-	for (var key in query) {
+	for (let key in query) {
 		query[key].apply(context);
 	}
 
