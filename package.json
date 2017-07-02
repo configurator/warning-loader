@@ -1,6 +1,6 @@
 {
   "name": "warning-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A webpack loader that produces warnings according to script rules",
   "main": "index.js",
   "repository": {
@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/configurator/warning-loader/issues"
   },
-  "homepage": "https://github.com/configurator/warning-loader#readme"
+  "homepage": "https://github.com/configurator/warning-loader#readme",
+  "peerDependencies": {
+    "webpack": "^2.3.3 || ^3.0.0"
+  }
 }
