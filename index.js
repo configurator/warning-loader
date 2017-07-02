@@ -38,7 +38,10 @@ module.exports = function (source, inputSourceMap) {
 	};
 
 	for (let key in query) {
-		query[key].apply(context);
+		let func = query[key];
+		if (typeof func === "function") {
+			func.apply(context);
+		}
 	}
 
 	return source;
